@@ -1,0 +1,436 @@
+/*body
+{
+	font-size: 12px;
+	background-color: #DDE2DC;
+}
+ img /* important !!! */
+ {
+	 max-width: 100%;
+ }
+ /*
+.wrapper
+{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto; 
+	background-color: white;
+	box-shadow: -10px 0 15px -5px #777, 10px 0 15px -5px #777;
+}
+
+
+.header:after
+{
+	content:"";
+	display: block;
+	clear: both; 
+}
+
+.header div 
+{
+	margin: 0.2%;
+}
+#Logo
+{
+	float: left; 
+	width: 26%;
+}
+
+#Logo p
+{
+
+	font-family: OCTICITY; 
+	font-size: 4em;
+	color: purple;
+	margin: 1%;
+	text-shadow: 5px 5px 5px #878787;
+}
+
+#Logo h3
+{
+	padding-left: 1%;
+}
+
+#Logo a 
+{
+	text-decoration: none;
+}
+
+#Logo a:active
+{
+	color: purple;
+}
+
+div.list
+{
+	float: left;
+	width: 50%;
+}
+
+div.list ul
+{
+	padding: 0;
+	margin: 0;
+}
+
+div.list ul li
+{
+	display: inline-block;
+	width: 100%;
+
+}
+
+list:after
+{
+	content: "";
+	clear: left;
+}
+
+#work-time
+{
+	background-image: url("Tel.gif");
+	background-repeat: no-repeat;
+	background-position: 140px 5px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#basket
+{
+	background-image: url("Basket.jpg");
+	background-repeat: no-repeat;
+	background-position: 160px 10px;
+	text-align: center;	
+	font-size: 1.8em;
+}
+
+#basket a 
+{
+	border-radius: 10px;
+	text-decoration: none;
+	background-color: #5EA9FF;
+	padding: 1.5%;
+	color: white;
+}
+
+#basket a:hover
+{
+	color: black;
+	font-weight: bold;
+	transition: 0.6s ease;
+}
+
+.user-reg 
+{
+	float: left;
+	width: 21%;
+}
+
+.user-reg input
+{
+	padding: 3%;
+	margin: 3%;
+	margin-bottom: 6%;
+	display: block;
+	background-color: purple;
+	color: white;
+	font-size: 1.5em;
+	border-radius: 15px;
+}
+
+.user-reg input:hover
+{
+	opacity: 0.5;
+}
+
+nav ul
+{
+	position: relative;
+	background-color: purple;
+	margin: 0;
+}
+nav ul li
+{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 1%;
+	padding: 0.6%;
+	position: relative;
+	transition: 0.3s ease;
+}
+
+nav ul ul 
+{
+	display: none; 
+	position: absolute;
+	top: 100%;
+	padding: 0;
+	background-color: #8E8E8E;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	font-size: 1.75em;
+	color:white;
+}
+
+nav ul ul li
+{
+	border-top: 1px solid purple;
+	padding: 10%;
+	display: block;
+	background-color: #8E8E8E;
+	font-size: 1em;
+	width: 100%;
+	z-index: 1;
+}
+
+nav ul li:hover > ul
+{
+	display: block;
+	
+} 
+
+nav ul li:hover
+{
+	background-color: #8E8E8E;	
+}
+
+nav ul ul li:hover
+{
+	background-color: #AFAFAF;
+} */
+
+/* Slideshow container */
+div.slideshow-container 
+{
+	width: 60%;
+	position: relative;
+	margin: 0.5%;
+	float: left;
+}
+
+div.slideshow-container img 
+{
+	max-width: 100%;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: 1%; /* -22px */
+  padding: 2%; /*16px */
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 1.75%;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* +.active */ .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+span.addvertisment img 
+{
+	width: 35%;
+}
+
+span.addvertisment:after
+{
+	clear: both;
+	display: block;
+	content: "";
+}
+
+.buttons div
+{
+	width: 15.5%;
+	border: 2px solid purple; 
+	border-radius: 4%;
+	display: inline-block;
+	padding: 0.24%;
+	margin-left: 0.1%;
+	position: relative; 
+	transition: 0.4s ease;
+}
+
+.buttons p
+{
+	position: absolute;
+	bottom: 0%;
+	left: 5%;
+	font-size: 1.5em;
+	display: none;
+}
+
+.buttons div:hover p
+{
+	display: block;
+	background-color: purple;
+	color: white;
+	padding: 2%;
+	border-radius: 10px;
+}
+
+.buttons div:hover
+{
+	opacity: 0.5;
+}
+
+.buttons img 
+{
+	height: 270px;
+}
+
+.size-table table, td, th
+{
+	border: 2px solid purple;
+	border-collapse: collapse;
+	padding: 2.5%;
+}
+
+.size-table table
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.25em;
+	
+}
+
+.size-table p
+{
+	font-size: 3em;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.size-table th
+{
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #D984C0;
+}
+
+.size-table td
+{
+	background-color: #E2DEE5;
+}
+
+.size-table td:first-child
+{
+	background-color: #D9BFC0;
+}
+
+footer div
+{
+	float: left;
+	width: 32%;
+	margin: 0.5%;
+}
+
+footer
+{
+	background-color: #333333;
+	color: white;
+}
+
+footer div ul li a
+{
+	font-size: 1.5em;
+	color: #F5FFB5;
+	font-family: Calibri;
+	text-decoration: none;
+}
+
+footer a:hover
+{
+	color: red;
+}
+
+footer div p:first-child
+{
+	font-size: 2em;
+}
+
+footer div p
+{
+	font-size: 1.25em;
+}
+
+#footer-info
+{
+	padding-left: 1.5%;
+}
+#footer-contacts p 
+{
+	text-align: right;
+}
+
+#footer-menu
+{
+	padding-left: 10%;
+	width: 20%;
+}
+footer:after
+{
+	content: "";
+	display: block;
+	clear: left;
+}
+
+footer > p
+{
+	font-family: OCTICITY; 
+	font-size: 1.75em;
+	color: #D9BFC0;
+	padding: 0.4%;
+}

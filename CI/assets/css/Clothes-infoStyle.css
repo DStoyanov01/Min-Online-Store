@@ -1,0 +1,76 @@
+content h2
+{
+	font-family: calibri;
+	font-size: 2.2em;
+	font-weight: bold;
+	margin-left: 25%;
+}
+.pic
+{
+	/*border: 1px solid black; */
+	float: left;
+	width: 28%;
+}
+
+.info
+{
+	/*border: 1px solid red; */
+	width: 48%;
+	float: left;
+	padding-left: 1%;
+}
+
+.info legend
+{
+	font-size: 2em;
+	font-family: calibri;
+} 
+
+.info p
+{
+	font-size: 1.6em;
+	font-weight: bold;
+} 
+
+.info span,text
+{
+	font-size: 1.4em;
+} 
+
+.info input, select
+{
+	width: 30%;
+}
+
+.info h3
+{
+	font-size: 2.2em;
+	font-family: calibri;
+	font-weight: bold;
+	color: red;	
+	margin-top: 0;
+}
+
+button
+{
+	padding: 1.25%;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: purple;
+	color: white;
+	font-size: 2em;
+	font-family: calibri;
+	font-weight: bold;
+}
+
+button:hover
+{
+	opacity: 0.7;
+	cursor: pointer;
+}
+content:after
+{
+	content: "";
+	display: block;
+	clear: left;
+}

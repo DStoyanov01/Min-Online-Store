@@ -1,0 +1,28 @@
+content h2
+{
+	font-family: calibri;
+	font-size: 2em;
+}
+content .info p
+{
+	font-family: calibri;
+	font-size: 1.5em;
+}
+
+footer.after
+{
+	content: "";
+	display: block;
+	clear: left;
+}
+
+content
+{
+	float: left;
+	width: 75%;
+	padding-left: 1.5%;
+}
+content img
+{
+	float: left;
+}

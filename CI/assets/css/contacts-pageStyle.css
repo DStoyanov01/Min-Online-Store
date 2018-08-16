@@ -1,0 +1,61 @@
+content
+{
+	float: left;
+	padding: 1%;
+	width: 75%;
+}
+
+#gmap_canvas img
+{
+	max-width:none!important;
+	background:none!important
+}
+
+#info, #map
+{
+	padding-left: 5%;
+}
+
+#info h2
+{
+	font-size: 2em;
+	font-family: calibri;
+}
+
+#info h3
+{
+	font-size: 1.5em;
+	font-family: calibri;
+}
+
+#info p 
+{
+	font-size: 1.2em;
+	font-family: calibri;
+}
+.after
+{
+	content: "";
+	display: block;
+	clear: left;
+}
+
+input[type*="reset"], input[type*="submit"]
+{
+	padding: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: purple;
+	color: white;
+	font-size: 1.3em;
+	font-family: calibri;
+	font-weight: bold;
+}
+
+input[type*="reset"]:hover, input[type*="submit"]:hover
+{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
